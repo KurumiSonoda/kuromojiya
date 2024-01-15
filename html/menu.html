@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>黒文字や</title>
+    <meta name="description" content="黒文字やは大濠公園近くの住宅街にひっそりと佇む古民家を改装した和風のカフェです。クラシックが流れる和モダンなこだわりの空間でお食事を楽しんだりお昼からお酒をたしなんだり、ゆっくりと時間を忘れるひと時をお過ごしください。">
+    <meta name="keywords" content="カフェ,古民家,ランチ,和カフェ,喫煙可,昼飲み,福岡,福岡中央,草香江,大濠,六本松,隠れ家">
+    <link rel="icon" href="../img/icon.svg">
+    <link rel="stylesheet" href="../css/item.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/sp.css" media="screen and (max-width: 750px)">
+    <link rel="stylesheet" href="../css/ress.css">
+    <link rel="stylesheet" href="../css/tablet.css" media="screen and (max-width: 960px)">
+
+    <style>
+        body{
+            line-height: normal;
+        }
+    </style>
+</head>
+<body>
+    <header class="header_pc">
+        <div class="flex">
+            <h1 class="logo"><a href="index.html"><img src="../img/logo.svg" width="309" height="107" alt="黒文字や"></a></h1>
+            <nav class="pc-menu">
+                <ul class="flex main-nav">
+                    <li><a href="menu.html"><div class="icon home"><img src="../img/home.svg" width="56" height="90" alt="HOME"><p class="header-menu">MENU</p></div></a></li>
+                    <li><a href="about.html"><div class="icon"><img src="../img/about.svg" width="104" height="82" alt="お店の紹介"><p class="header-menu">お店の紹介</p></div></a></li>
+                    <li><a href="access.html"><div class="icon"><img src="../img/access.svg" width="48" height="72" alt="アクセス"><p class="header-menu">アクセス</p></div></a></li>
+                    <li><a href="contact.html"><div class="icon"><img src="../img/contact.svg" width="63" height="82" alt="お問い合わせ"><p class="header-menu">お問い合わせ</p></div></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <header class="header_sp">
+        <nav class="sp-menu flex">
+            <ul class="sub-nav">
+                <li><a href="about.html"><div class="icon"><img src="../img/about.svg" width="104" height="82" alt="お店の紹介"><p class="header-menu">お店の紹介</p></div></a></li>
+                <li><a href="access.html"><div class="icon"><img src="../img/access.svg" width="48" height="72" alt="アクセス"><p class="header-menu">アクセス</p></div></a></li>
+                <li><a href="contact.html"><div class="icon"><img src="../img/contact.svg" width="63" height="82" alt="お問い合わせ"><p class="header-menu">お問い合わせ</p></div></a></li>
+                <li>
+                    <button class="hamburger header_hamburger" id="js-hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span>MENU</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="sp-menu_content" id="js-nav">
+                <ul class="sp-menu_list">
+                    <li class="sp-menu_item"><a href="./menu.html#lunch" class="sp-menu_link">ランチ</a></li>
+                    <li class="sp-menu_item"><a href="./menu.html#desert" class="sp-menu_link">デザート</a></li>
+                    <li class="sp-menu_item"><a href="./menu.html#drink" class="sp-menu_link">ドリンク</a></li>
+                    <li class="sp-menu_item"><a href="./menu.html#alcohol" class="sp-menu_link">アルコール</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <h2>MENU</h2>
+        <div class="flex menu_top">
+            <div class="menu_list">
+                <a href="#lunch">
+                    <p class="menu_list_item">ランチ</p>
+                    <p class="menu_list_time">10:30~16:00</p>
+                </a>
+            </div>
+            <div class="menu_list">
+                <a href="#dessert">
+                    <p class="menu_list_item">デザート</p>
+                    <p class="menu_list_time">10:30~16:00</p>
+                </a>
+            </div>
+            <div class="menu_list">
+                <a href="#drink">
+                    <p class="menu_list_item">お飲み物</p>
+                    <p class="menu_list_time">10:30~18:00</p>
+                </a>
+            </div>
+        </div>
+        <hr class="menu_border">
+
+        <h3 id="lunch">
+            <span class="menu_title">ランチメニュー</span>
+            <span class="menu_time">10:30~16:00</span>
+        </h3>
+
+        <div class="flex all">
+            <P class="all_menu">全商品</P>
+                <div class="wrapper_all_menu">
+                    <p class="all_price">1,500円<span>（土日祝日は1,600円）</span></p>
+                    <p class="all_menu_item">サラダ・小鉢・スープ・ご飯付
+                        <span>（パスタはパン付）</span>
+                    </p>
+                    <p class="all_menu_text">
+                        ※ランチのご飯は全て雑穀米となります。<br>
+                        アレルギーの方のみ白米へのご変更を承ります。
+                    </p>
+                </div>
+        </div>
+
+        <div class="flex wrapper_plus g-line-wrap">
+            <div class="wrapper_plus_left">
+                <div class="flex plus_left">
+                    <p class="plus_price g-line-wrap"><span class="g-line"></span>+100円</p>
+                    <p class="plus_menu">ドリンク付<br>
+                        <span>珈琲　アイス珈琲　紅茶　緑茶<br>
+                        アイスティ　リンゴジュース</span>
+                    </p>  
+                </div>
+
+                <div class="plus_left">
+                    <div class="g-line-wrap">
+                        <span class="g-line"></span>
+                        <div class="flex">
+                            <p class="plus_price">+100円</p>
+                            <p class="plus_menu">ごはん大盛</p>
+                        </div>
+                    
+                        <div class="flex">
+                            <p class="plus_price mb0">+200円</p>
+                            <p class="plus_menu mb0">その他パスタ、オムライス</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex g-line-wrap">
+                <span class="g-line"></span>
+                <div class="wrapper_plus_right">
+                    <div class="flex">
+                        <p class="plus_price">+300円</p>
+                        <p class="plus_menu">アイスクリーム</p>
+                    </div>
+                    <div class="menu_left_margin">
+                        <div class="flex">
+                            <p class="plus_price">+350円</p>
+                            <p class="plus_menu">ミニパフェ　ケーキ<br>
+                                みたらしだんご2本<br>
+                                わらび餅4個（抹茶2 きなこ2）</p>
+                        </div>
+                        <div class="flex">
+                            <p class="plus_price">+400円</p>
+                            <p class="plus_menu">よもぎとみたらしだんご２本</p>
+                        </div>
+                        <div class="flex">
+                            <p class="plus_price mb0">+450円</p>
+                            <p class="plus_menu mb0">よもぎだんご２本</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex warpper_lunch">
+            <div class="lunch_menu">
+                <img src="../img/mentikatsu.jpg" alt="" class="menu_img">
+                <p class="menu_item">国産豚のジューシー<span class="wrap_span">メンチカツ</span></p>
+                <a class="menu_description">
+                    黒文字や人気ナンバーワンメニュー。<br>
+                    おろしポン酢で食べるあっさりした味わいは年齢層関係なしに支持を得ています。
+                </a>
+            </div>
+            <div class="lunch_menu">
+                <img src="../img/omuraisu.jpg" alt="" class="menu_img">
+                <p class="menu_item">黒文字や特製オムライス</p>
+                <a class="menu_description">
+                    自家製デミグラスソースをたっぷりかけて、デコレーションケーキの様な仕上がりにしています。女性にとても人気のあるメニューです。
+                </a>
+            </div>
+            <div class="lunch_menu">
+                <img src="../img/curry.jpg" alt="" class="menu_img">
+                <p class="menu_item">具だくさん野菜の<span class="wrap_span">土鍋焼きカレー</span></p>
+                <a class="menu_description">
+                    アツアツのカレーに温泉卵と野菜とチーズを乗せ土鍋でご提供いたします。
+                </a>
+            </div>
+        </div>
+
+        <div class="flex warpper_lunch">
+            <div class="lunch_menu">
+                <img src="../img/karubonara.jpg" alt="" class="menu_img">
+                <p class="menu_item">厚切りベーコンと半熟卵の<span class="wrap_span">濃厚カルボナーラ</span></p>
+                <a class="menu_description">
+                    淡路島から取り寄せた生パスタ麺に、濃厚なソースをたっぷり絡めてお召し上がりください。
+                </a>
+            </div>
+            <div class="lunch_menu">
+                <img src="../img/tantanmen.jpg" alt="" class="menu_img">
+                <p class="menu_item">まろやかスープの担々麺 (おむすび付)</p>
+                <a class="menu_description">
+                    カフェなのに担々麺！と驚かれる方もいますが、意外と隠れた人気メニューです。
+                    スープを全部飲み干す方や、残ったスープにおむすびを入れて食べる方もいらっしゃいます。
+                </a>
+            </div>
+            <div class="lunch_menu">
+                <img src="../img/naporitan.jpg" alt="" class="menu_img">
+                <p class="menu_item">スパゲッティナポリタン</p>
+                <a class="menu_description">
+                    こちらも淡路島から取り寄せた生パスタ麺を使用しております。
+                    昔ながらの懐かしい味をお楽しみください。
+                </a>
+            </div>
+        </div>
+
+        <div class="flex wrapper_other">
+            <div class="other_menu">
+                <p class="other_menu_item">牛ひき肉のボロネーゼパスタ</p>
+                <a class="other_menu_description">
+                    挽肉たっぷりのソースが生麺と絡み合い、風味豊かな仕上がりになっております。
+                </a>
+                <p class="other_menu_item">チキンカツカレー</p>
+                <a class="other_menu_description">
+                    チキンカツと野菜をのせたボリューム感あるスパイシーカレーです。
+                </a>
+                <p class="other_menu_item">ボリュームたっぷりチキン<span class="wrap_span">カツサンド</span></p>
+                <a class="other_menu_description">
+                    こんがり焼けたバケットにあっさりした鶏むね肉のカツを挟んでいます。<br>
+                    お酒のお供に好まれています。
+                </a>
+                <p class="other_menu_item">地鶏かつおだしの海老かき揚げ<span class="wrap_span">うどん（おむすび付）</span></p>
+                <a class="other_menu_description">
+                    味わいのある出汁を使ったうどんに揚げたてのかき揚げをのせました。<br>
+                    心も温まりそうなほっこりメニューです。
+                </a>
+                <p class="other_menu_item">あっさりスープの塩ラーメン（おむすび付）</p>
+                <a class="other_menu_description">
+                    あっさりとした口あたりながら、コク旨で濃厚なスープです。
+                </a>
+            </div>
+
+            <div class="wrapper_menu">
+                <div class="flex special">
+                        <p class="flex special_menu">特別ランチメニュー</p>
+                    <p class="special_price">
+                        1,600円<br>
+                        <span>(土日祝日は<span class="wrap_span">1,700円)</span></span>
+                    </p>
+                </div>
+                <img src="../img/humbaerg.jpg" alt="" class="special_img">
+                <p class="special_menu_item">土鍋のあつあつハンバーグ<br>
+                    <span>（ご飯・スープ・サラダ付）</span></p>
+                <p class="special_description">土鍋で煮込んだ大きなハンバーグは野菜に囲まれあつあつジューシーです。
+            </div>
+        </div>
+
+        <div class="flex wrapper_other_bottom">
+            <div class="single">
+                <p class="single_title">単品メニュー</p>
+                <hr class="single_border">
+                <table>
+                    <tr>
+                        <td class="single_menu">日替わりピザ</td>
+                        <td class="single_price">1,000円</td>
+                    </tr>
+                    <tr>
+                        <td class="single_menu">鴨のロースト盛り</td>
+                        <td class="single_price">800円</td>
+                    </tr>
+                    <tr>
+                        <td class="single_menu">生ハムと温泉卵のサラダ</td>
+                        <td class="single_price">800円</td>
+                    </tr>
+                    <tr>
+                        <td class="single_menu">フライドポテト</td>
+                        <td class="single_price">650円</td>
+                    </tr>
+                    <tr>
+                        <td class="single_menu">ガーリックトースト</td>
+                        <td class="single_price">500円</td>
+                    </tr>
+                </table>
+            </div>    
+
+            <div class="wrapper_take_out">
+                <div class="take_out">
+                    <p class="take_out_text">
+                        黒文字や人気No1メンチカツが<br>
+                        お持ち帰りできます。
+                    </p>
+                    <p class="take_out_description">
+                        揚げたてのメンチカツを冷凍保存した状態でお渡しします。<br>
+                        電子レンジやトースターで簡単に調理できます。
+                    </p>
+                    <p class="take_out_price">3個入　1,200円（税込）</p>
+                    <p class="take_out_price">5個入　1,800円（税込）</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- デザートメニュー -->
+        <h3 id="dessert">
+            <span class="menu_title">デザートメニュー</span>
+            <span class="menu_time">10:30~16:00</span>
+        </h3>
+        <div class="flex dessert-flex">
+            <div class="dessert-left"> <!-- デザート左 -->
+                <div class="wrapper_dessert">
+                    <p class="dessert_title">デザートセット</p>
+                    <p class="dessert_item">デザート  ＋   選べるドリンク５種類</p>
+                    <div class="wrap_dessert">
+                        <p class="dessert_description set_drink">
+                            珈琲／アイス珈琲／紅茶／抹茶／緑茶<br>
+                            ／アイスティー／リンゴジュース
+                        </p>
+                    </div>
+                </div>
+                <img src="../img/kuromojiset.png" alt="黒文字やセット" class="dessert_top">
+                <img src="../img/yomogidango.jpg" alt="" class="dessert_bottom">
+                <table class="dessert-table">
+                    <tr>
+                        <td class="dessert_menu">
+                            よもぎだんごセット<br>
+                            <span>(よもぎ団子２本)</span>
+                        </td>
+                        <td class="dessert_price">950円</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="dessert_description">よもぎの香りがふんわりとやわらかいお団子に漂います。</td>
+                    </tr>
+                    <tr>
+                        <td class="dessert_menu">わらび餅セット</td>
+                        <td class="dessert_price">850円</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="dessert_description">抹茶ときな粉の2種類を黒蜜をかけてお召し上がりください。</td>
+                    </tr>
+                    <tr>
+                        <td class="dessert_menu">みたらしだんごセット</td>
+                        <td class="dessert_price">850円</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="dessert_description">
+                            ご注文いただいてからじっくり焼き上げるお団子です。<br>
+                            みたらしのタレが濃厚で人気です。
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="dessert_menu">
+                            おだんごセット<br>
+                            <span>(よもぎ団子とみたらし団子)</span>
+                        </td>
+                        <td class="dessert_price">900円</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="dessert_description">お団子が二種食べれる贅沢セットです。</td>
+                    </tr>
+                </table>
+                <table class="pancake-table">
+                    <tr>
+                        <td class="dessert_menu" colspan="3">米粉の特製パンケーキ</td>
+                    </tr>
+                    <tr>
+                        <td class="dessert_menu_pancake">和風</td>
+                        <td class="dessert_menu_pancake_description">
+                            生地に抹茶を練りこんであり、小豆や黒蜜をトッピングしています。
+                        </td>
+                        <td class="dessert_price">1,350円</td>
+                    </tr>
+
+                    <tr>
+                        <td class="dessert_menu_pancake">洋風</td>
+                        <td class="dessert_menu_pancake_description">
+                            プレーンタイプの生地でフルーツやデザートソースで盛り付けています。
+                        </td>
+                        <td class="dessert_price">1,250円</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="dessert_menu_pancake_annotation">
+                            ※パンケーキは焼き上がりに時間を要しますのでランチタイム時はお断りさせていただくこともございます。ご了承ください。
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="dessert-right"> <!-- デザート右 -->
+                <div class="dessert-single">
+                    <div class="wrapper_dessert">
+                        <p class="dessert_title">単　品</p>
+                        <p class="dessert_item">単品  ＋250円でドリンクがつけられます。</p>
+                        <div class="wrap_dessert">
+                            <p class="dessert_description set_drink">
+                                珈琲／アイス珈琲／紅茶／抹茶／緑茶<br>
+                                ／アイスティー／リンゴジュース
+                            </p>
+                        </div>
+                    </div>
+                    <img src="../img/parfait.png" alt="抹茶セット" class="dessert_top">
+                    <table class="dessert-table">
+                        <tr>
+                            <td class="dessert_menu">みたらしパフェ</td>
+                            <td class="dessert_price">1,000円</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="dessert_description">
+                                バニラアイスに白玉、ワッフル、小豆、黒糖わらび餅が入って<br>
+                                みたらしのソースをかけています。</td>
+                        </tr>
+                        <tr>
+                            <td class="dessert_menu">黒蜜きな粉パフェ</td>
+                            <td class="dessert_price">1,000円</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="dessert_description">
+                                黒胡麻とバニラのアイスに<br>
+                                白玉・ワッフル・小豆・きな粉わらび餅が入っています。</td>
+                        </tr>
+                        <tr>
+                            <td class="dessert_menu">小豆たっぷり白玉ぜんざい</td>
+                            <td class="dessert_price">750円</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="dessert_description">
+                                小豆たっぷり白玉ぜんざい<br>
+                                もちもちの白玉と小豆がたっぷり入っています。
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="dessert_menu">アイスクリーム</td>
+                            <td class="dessert_price">800円</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="dessert_description">
+                                抹茶・黒胡麻・バニラより2種類選択できます。
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+    
+                <div class="wrapper_take_out_menu">
+                    <p class="take_out_menu_text">お持ち帰り特別価格</p>
+                    <p class="take_out_menu_description">
+                        ※みたらしだんごはお持ち帰りの場合、<br>
+                        　焼き上がりにお時間がかかりますので、<br>
+                        　なるべくお先にご注文お願いします。
+                    </p>
+                    <div class="flex take_out_flex">
+                        <p class="take_out_menu">みたらしだんご（４本）</p>
+                        <p class="take_out_menu_price">650円</p>
+                    </div>
+                    <div class="flex take_out_flex">
+                        <p class="take_out_menu">わらび餅(抹茶ときな粉)</p>
+                        <p class="take_out_menu_price">650円</p>
+                    </div>
+                    <div class="flex take_out_flex">
+                        <p class="take_out_menu">よもぎだんごと <span class="wrap_span">みたらしだんご（４本）</span></p>
+                        <p class="take_out_menu_price">700円</p>
+                    </div>
+                    <div class="flex take_out_flex">
+                        <p class="take_out_menu">よもぎだんご（４本）</p>
+                        <p class="take_out_menu_price">750円</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ドリンクメニュー -->
+        <div class="flex flex-drink">
+            <div class="wrapper_drink">
+                <h3 id="drink">
+                    <span class="menu_title drink_title">ドリンクメニュー</span>
+                    <span class="menu_time drink_time">10:30~18:00<span class="wrap_span">（ラストオーダー17:30）</span></span>
+                </h3>
+                <p class="drink_menu_title">珈琲</p>
+                <p class="drink_menu_text">珈琲のおかわりは250円になります。</p>
+                <table class="drink_table">
+                    <tr>
+                        <td class="drink_menu">ブレンド珈琲</td>
+                        <td class="drink_menu_price">600円</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="drink_menu_description">
+                            豊かな香りとコクをやや深めの焙煎で引き出してあります。
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">博多クラシック珈琲</td>
+                        <td class="drink_menu_price">550円</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="drink_menu_description">
+                            浅煎りでほのかに香ばしく柔らかいコクがあります。
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">オーガニック珈琲</td>
+                        <td class="drink_menu_price">650円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu_description">
+                            ペルー産豆を深煎り、しっかりとした口当たりで<br>
+                            濃い目がお好きな方におすすめです。
+                        </td>
+                        <td class="drink_menu_tax"><span>（税込）</span></td>
+                    </tr>
+                </table>
+
+                <p class="drink_menu_title">ホットメニュー</p>
+                <table class="drink_table">
+                    <tr>
+                        <td class="drink_menu">カフェラテ</td>
+                        <td class="drink_menu_price">650円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">抹茶ラテ</td>
+                        <td class="drink_menu_price">650円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">紅茶</td>
+                        <td class="drink_menu_price">550円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">ココア</td>
+                        <td class="drink_menu_price">600円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">ホットミルク</td>
+                        <td class="drink_menu_price">550円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">お抹茶（和菓子付）</td>
+                        <td class="drink_menu_price">650円<br></td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu"></td>
+                        <td class="drink_menu_tax"><span>（税込）</span></td>
+                    </tr>
+                </table>
+
+                <p class="drink_menu_title">アイスメニュー</p>
+                <table class="drink_table">
+                    <tr>
+                        <td class="drink_menu">アイス珈琲</td>
+                        <td class="drink_menu_price">650円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">アイスティー</td>
+                        <td class="drink_menu_price">650円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">カフェラテ</td>
+                        <td class="drink_menu_price">700円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">抹茶ラテ</td>
+                        <td class="drink_menu_price">750円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">リンゴジュース</td>
+                        <td class="drink_menu_price">650円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">マンゴージュース</td>
+                        <td class="drink_menu_price">700円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">珈琲フロート</td>
+                        <td class="drink_menu_price">750円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">マンゴーフロート</td>
+                        <td class="drink_menu_price">800円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu"></td>
+                        <td class="drink_menu_tax"><span>（税込）</span></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="wrapper_drink">
+                <h3 id="alcohol">
+                    <span class="menu_title drink_title">アルコールメニュー</span>
+                    <span class="menu_time drink_time">10:30~18:00<span class="wrap_span">（ラストオーダー17:30）</span></span>
+                </h3>
+                <img src="../img/alcohol.jpg" alt="">
+                <table class="drink_table">
+                    <tr>
+                        <td class="drink_menu">サッポロビール黒ラベル</td>
+                        <td class="drink_menu_price">700円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">エビスビール</td>
+                        <td class="drink_menu_price"><span class="wrap_span">750円</span></td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">ノンアルコールビール</td>
+                        <td class="drink_menu_price">550円</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">グラスワイン(白・赤)</td>
+                        <td class="drink_menu_price">650円~</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">ボトルワイン(白・赤)</td>
+                        <td class="drink_menu_price">4,000円~</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">スパークリングワイン</td>
+                        <td class="drink_menu_price">4,500円~</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">I.Wハーパー</td>
+                        <td class="drink_menu_price">700円
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">シーバスリーガルミズナラ</td>
+                        <td class="drink_menu_price">800円
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">ニッカ/竹鶴</td>
+                        <td class="drink_menu_price">800円
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">ハイボール</td>
+                        <td class="drink_menu_price">700円~</td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">焼酎(麦・芋)</td>
+                        <td class="drink_menu_price">600円
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="drink_menu">日本酒 剣菱</td>
+                        <td class="drink_menu_price">600円</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="drink_menu_tax"><span>（税込）</span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="relative">
+            <div class="absolute">
+                <img src="../img/logo.svg" alt="" class="footer_logo">
+                <div class="address">福岡県福岡市中央区六本松2-12-2</div>
+                <div class="tel">TEL   092-726-6358</div>
+                <div class="info">
+                    <div class="footer_item">
+                        <p>[営業時間]<br>
+                        10:30~18:00（ラストオーダー17:30）</p>
+                    </div>
+                    <div class="footer_item">
+                        <p>[定休日]<br>
+                        月曜日（月曜祝日の場合はご確認ください）</p>
+                    </div>
+                    <div class="footer_item">
+                        <p>[お支払い方法]<br>
+                        現金、各種クレジットカード決済、d払い</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="footer_tree">
+               <img src="../img/footer_tree.png" alt="">
+            </div>
+            <small>&copy;2023 kuromojiya</small>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/item.js"></script>
+</body>
+</html>

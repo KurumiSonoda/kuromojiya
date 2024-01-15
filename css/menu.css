@@ -1,0 +1,1056 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+    background-image: url(../img/washi.png);
+    background-repeat: repeat;
+    background-size: 800px;
+}
+
+.main {
+    text-align: center;
+    padding: 0 5%;
+}
+
+h2 {
+    font-family: 'しっぽり明朝','Shippori Mincho',serif;
+    font-size: 2.5rem;
+    color: #bd9552;
+    margin: 140px auto 100px auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.menu_top {
+    justify-content: center;
+    gap: 15vw;
+}
+
+.menu_list {
+    font-family: 'しっぽり明朝','Shippori Mincho',serif;
+    list-style-type: none;
+}
+
+.menu_list a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu_list_item {
+    font-size: clamp(1rem, 1.7vw, 2.4rem);
+    margin-bottom: 10px;
+}
+
+.menu_list_time {
+    font-size: clamp(0.7rem, 1.5vw, 1.8rem);
+    margin-bottom: 2.5vw;
+}
+
+.menu_border {
+    margin: 0 auto 115px auto;
+    border: 0.4rem solid #bd9552;
+}
+
+h3 {
+    font-family: 'しっぽり明朝','Shippori Mincho',serif;
+    background-image: url(../img/menu_background.png);
+    background-size: clamp(15rem, 31vw, 80rem);
+    background-position: center;
+    border: 0.2vw solid #bd9552;
+    margin: 0 auto 80px auto;
+    letter-spacing: 0.2vw;
+    width: 30vw;
+}
+
+h3 span {
+    display: block;
+}
+
+#lunch, #dessert, #drink,#alcohol {
+    width: clamp(10rem, 28vw, 80rem);
+
+}
+
+.menu_title {
+    font-size: clamp(1rem, 1.9vw, 2.4rem);
+    padding: 1.5vw 0 0.5vw 0;
+}
+
+.menu_time {
+    font-size: clamp(0.7rem, 1.5vw, 1.8rem);
+    padding-bottom: 1.5vw;
+}
+
+.all {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.all_menu {
+    white-space: nowrap;
+    margin-top: 0.2rem;
+    font-size: clamp(1rem, 1.4vw, 1.9rem);
+    margin-right: 3vw;
+}
+
+.wrapper_all_menu {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.all_price {
+    font-size: clamp(1.4rem, 1.8vw, 2.3rem);
+    ;
+}
+
+.all_price span {
+    font-size: clamp(0.9rem, 1.2vw, 1.4rem);
+    /* font-size: 1.5rem; */
+}
+
+.all_menu_item {
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    margin-bottom: 0.5vw;
+
+}
+
+.all_menu_item span {
+    font-size: clamp(0.9rem, 1vw, 1.2rem);
+}
+
+.all_menu_text {
+    font-size: 0.8rem;
+}
+
+.g-line-wrap{
+    position: relative;
+    padding-left: 20px;
+}
+
+.g-line{
+    position: absolute;
+    top: -16px;
+    left: 0;
+    display: block;
+    width: 6px;
+    height: calc(100% + 32px);
+    background-color: #bd9552;
+}
+
+.g-line::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 16px;
+    height: 6px;
+    background-color: #bd9552;
+}
+
+.g-line::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 16px;
+    height: 6px;
+    background-color: #bd9552;
+}
+
+.wrapper_plus {
+    margin-bottom: 100px;
+    justify-content: center;
+    gap: 10%;
+    align-items: flex-start;
+}
+
+.wrapper_plus .flex {
+    align-items: flex-start;
+}
+
+.plus_left {
+    display: flex;
+    margin: 0 50px 2vw 0;
+}
+
+.plus_price {
+    font-size: clamp(1.2rem, 1.4vw, 1.9rem);
+    font-weight: 600;
+    margin: 0 5% 5% 1%;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.plus_menu {
+    font-size: clamp(1.1rem, 1.3vw, 1.8rem);
+    margin: 0 -10% 20px 1%;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.plus_menu span {
+    font-size: clamp(0.9rem, 1vw, 1.2rem);
+}
+
+.warpper_lunch {
+    width: 100%;
+    height: auto;
+    margin: 0 auto
+}
+
+.lunch_menu {
+    margin: 0 1.2vw 0 1.2vw;
+    width: 30vw;
+}
+
+.menu_img {
+    width: 100%;
+    box-shadow: 1vw 1vw 0px -0.2vw #4f4c4b;
+}
+
+.menu_item {
+    font-size: 1.3rem;
+    margin: 20px auto -3% auto;
+    word-break: keep-all;
+}
+
+.wrap_span {
+    display: inline-block;
+}
+
+.menu_description {
+    font-size: 0.9rem;
+    display: inline-block;
+    text-align: left;
+    margin: 15px 0 40px 0;
+}
+
+.wrapper_other {
+    margin: 90px 0 130px 0;
+    justify-content: space-between;
+}
+
+.other_menu {
+    text-align: left;
+}
+
+.other_menu_item {
+    word-break: keep-all;
+    font-size: 1.5rem;
+    margin-bottom: -0.8vw;
+}
+
+.other_menu_description {
+    font-size: 1rem;
+    display: inline-block;
+    text-align: left;
+
+    margin: 0.6vw 0 3vw 0;
+
+}
+
+.wrapper_menu {
+    width: 44vw;    
+}
+
+.special {
+    width: 96%;
+    justify-content: space-between;
+    margin: 0 auto 20px auto;
+}
+
+.special_menu {
+    font-size: clamp(1rem, 1.7vw, 1.7rem);
+    white-space: nowrap;
+    width: clamp(10rem, 17\vw, 20rem);
+    height: clamp(2.8rem, 6vw, 6.5rem);
+    background-color: #bd9552;
+    border-radius: 1vw;
+    border: 0.1vw solid white;
+    justify-content: center;
+    align-items: center;
+}
+
+.special_price {
+    font-size: 1.5rem;
+    text-align: left;
+    word-break: keep-all;
+}
+
+.special_price span {
+    font-size: 1rem;
+}
+
+.special_img {
+    width: 95%;
+    box-shadow: 1vw 1vw 0px -0.2vw #bd9552;
+}
+
+.special_menu_item {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    word-break: keep-all;
+
+}
+
+.special_menu_item span {
+    font-size: 1.2rem;
+}
+
+.special_description {
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.wrapper_other_bottom {
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 250px;
+
+}
+
+.single {
+    width: 45%;
+}
+
+.single_title {
+    font-size: 1.5rem;
+}
+
+.single_border {
+    border: 0.25rem solid #bd9552;
+    margin-bottom: 2vw;
+}
+
+.single_menu {
+    font-size:1.2rem;
+    text-align: left;
+    padding-left: 2vw;
+    width: 40vw;
+    word-break: keep-all;
+}
+
+.single_price {
+    white-space: nowrap;
+    font-size: 1.3rem;
+    text-align: right;
+    padding-right: 2vw;
+    width: 15vw;
+}
+
+.wrapper_take_out {
+    border: 0.3125rem solid #bd9552;
+    width: 32rem;
+    height: 20rem;
+}
+
+.take_out {
+    display: inline-block;
+    text-align: center;
+}
+
+.take_out_text {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #bd9552;
+    text-align: left;
+    margin: 10% auto 8%;
+    width: fit-content;
+}
+
+.take_out_description {
+    font-size: 0.9rem;
+    text-align: left;
+    margin-bottom: 2vw;
+}
+
+.take_out_price {
+    font-size: 1.2rem;
+}
+
+
+
+/* デザートメニュー */
+.dessert-flex {
+    width: 100%;
+    justify-content: center;
+    width: fit-content;
+
+}
+
+.dessert_title {
+    font-family: '小塚明朝 Pro','Kozuka Mincho Pro',serif;
+    font-size: 1.8rem;
+    color: black;
+    width: 70%;
+    height: 4rem;
+    background-color: #bd9552;
+    border-radius: 5vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    font-weight: 900;
+}
+
+.dessert_item {
+    font-size: 1.3rem;
+    margin: 1.7vw 0 0.5vw 0;
+}
+
+.wrap_dessert {
+    margin-bottom: 20px;
+}
+
+.dessert_description {
+    font-size: 0.9rem;
+    text-align: left;
+    vertical-align: top;
+    height: 3em;
+    width: fit-content;
+    padding-bottom: 7%;
+    margin: 0 auto;
+}
+
+.dessert_menu {
+    word-break: keep-all;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.dessert_menu span {
+    font-size: 0.9rem;
+}
+
+.dessert_price {
+    white-space: nowrap;
+    font-size: 1.2rem;
+    width: 4rem;
+    text-align: right;
+    vertical-align: top;
+}
+
+
+/* デザート左 */
+.dessert-left {
+    width: 40%;
+    margin: 0 auto;
+    border: 0.1vw solid white;
+    text-align: center;
+}
+
+.dessert-left .dessert_title {
+    position: relative;
+    top: -2rem;
+}
+
+.dessert-left table {
+    width: 80%;
+}
+
+.dessert_top{
+    width: 80%;
+    margin: 0 auto 30px auto;
+}
+
+.dessert_bottom {
+    width: 60%;
+    margin: 20px auto -20px auto;
+    box-shadow: 1vw 1vw 0px -0.2vw #2B4B30;
+
+}
+
+.pancake-table {
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    margin: -3rem auto 3rem auto;
+    text-align: left;
+}
+
+.dessert_menu_pancake {
+    font-size: 1rem;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.dessert_menu_pancake_description {
+    font-size: 0.9rem;
+    display: inline-block;
+    text-align: left;
+    padding-bottom: 15px;
+
+}
+
+.dessert_menu_pancake_annotation {
+    font-size: 0.8rem;
+    height: 5em;
+}
+
+.dessert-left table:not(.pancake-table,.pancake-type) {
+    margin: 3rem auto;
+}
+
+
+
+/* デザート右 */
+.dessert-right {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.dessert-single {
+    border: 0.1vw solid white;
+}
+
+.dessert-right table {
+    margin: 0 auto;
+    text-align: left;
+    width: 80%;
+}
+
+
+
+.dessert-single table {
+    margin-bottom: 3.5vw;
+}
+
+.dessert-single table .dessert_description {
+    width: 10%;
+}
+
+.dessert-single .dessert_title {
+    position: relative;
+    top: -2rem;
+}
+
+
+/* 持ち帰り */
+.wrapper_take_out_menu {
+    width: 100%;
+    border: 2px solid #bd9552;
+    margin-top: 4.6vw;
+    text-align: center;
+    padding: 2rem 0 ;
+}
+
+.take_out_flex {
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.take_out_menu_text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #bd9552;
+    text-align: center;
+}
+
+.take_out_menu_description {
+    display: inline-block;
+    font-size: 0.9rem;
+    text-align: left;
+    margin-bottom: 1em;
+    white-space: nowrap;
+}
+
+.take_out_menu {
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.take_out_menu_price {
+    font-size: 1.1rem;
+    text-align: right;
+    white-space: nowrap;
+}
+
+/* ドリンク */
+.flex-drink {
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.wrapper_drink {
+    width: 40%;
+    margin-top: 2.7vw;
+    margin-bottom: 26.5vw;
+    border: 0.1vw solid white;
+}
+
+.wrapper_drink h3 {
+    margin-top: 2.3vw;
+}
+
+#drink, #alcohol {
+    text-align: center;
+    width: fit-content;
+}
+
+.drink_menu_title {
+    margin: 4.5vw auto 0.7vw auto;
+    font-size: 1.3rem;
+}
+
+.drink_table {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.drink_menu_title {
+    font-size: 1.4rem;
+    color: #bd9552;
+}
+
+.drink_menu_text {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+.drink_menu {
+    font-size: 1.2rem;
+    text-align: left;
+    vertical-align: top;
+    word-break: keep-all;
+}
+
+.drink_menu_price {
+    font-size: 1.2rem;
+    width: fit-content;
+    text-align: right;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+.drink_menu_description {
+    font-size: 0.9rem;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.drink_menu_tax {
+    font-size: 0.8rem;
+    text-align: right;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.drink_table:last-child {
+    margin-bottom: 3rem;
+}
+
+/* アルコール */
+.wrapper_drink img {
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.drink_menu_price  {
+    padding-bottom: 5px;
+}
+
+
+
+/* レスポンシブ */
+@media (max-width:1024px){
+
+    .wrapper_plus {
+        gap: 5%;
+    }
+
+    .wrapper_other{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .wrapper_menu {
+        width: 75%;
+        margin-bottom: 80px;
+    }
+
+    .wrapper_other_bottom {
+        margin-bottom: 200px;
+    }
+
+    .special {
+        width: 95%;
+        margin: 15% auto 2% auto;
+    }
+
+    .wrapper_take_out {
+        margin: 0 auto;
+    }
+
+    .dessert_title {
+        font-size: 1.5rem;
+    }
+
+    .special_description {
+        text-align: center;
+    }
+        
+}
+
+@media screen and (max-width:900px) {
+    .menu_item,
+    .dessert_menu,
+    .dessert_price,
+    .dessert_menu_pancake,
+    .take_out_menu,
+    .take_out_price,
+    .drink_menu,
+    .drink_menu_price {
+        font-size: 0.95rem;
+    }
+
+    .menu_description,
+    .dessert_description,
+    .dessert_menu_pancake_description,
+    .take_out_menu_description,
+    .drink_menu_description {
+        font-size: 0.75rem;
+    }
+
+    .other_menu_item {
+        font-size: 1.2rem;
+    }
+
+    .other_menu_description {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (max-width:850px){
+
+    .special_price {
+        line-height: 1.5rem;
+    }
+}
+
+
+@media (max-width:750px){
+
+    body {
+        margin: 0 auto;
+    }
+
+    .wrapper_plus,
+    .warpper_lunch,
+    .wrapper_other,
+    .wrapper_other_bottom,
+    .dessert-flex,
+    .flex-drink {
+        display: block;
+    }
+
+    h2 {
+        font-size: 1.8055555556rem;
+    }
+
+    .menu_list_item {
+        white-space: normal;
+    }
+
+    .menu_border {
+        border: 0.2rem solid #bd9552;
+    }
+
+    .all {
+        margin-bottom: 0;
+    }
+
+    .all_menu {
+        padding-bottom: 0.1vw;
+    }
+
+
+    .all_menu_item span {
+        word-break: keep-all;
+        text-align: right;
+    }
+
+    .all_menu_text {
+        white-space: nowrap;
+        font-size: 0.7rem;
+    }
+
+    .wrapper_plus {
+    margin: 0 auto 80px auto;
+    }
+
+    .plus_price {
+        font-size: 0.83333333333rem;
+    }
+
+    .wrapper_plus_left {
+        margin-bottom: 4em;
+    }
+
+    .g-line-wrap {
+        width: fit-content;
+    }
+
+    .plus_menu {
+        white-space: nowrap;
+        font-size: clamp(0.9rem,3vw,1rem);
+    }
+
+    .plus_menu span {
+        font-size: 0.7rem;
+    }
+
+    .warpper_lunch {
+        margin: 0 auto 30px auto;
+    }
+
+    .lunch_menu {
+        margin: 0 auto 20px auto;
+        width: 88%;
+    }
+
+    .menu_item {
+        font-size: 1.2rem;
+    }
+
+    .menu_description {
+        font-size: 0.9rem;
+    }   
+
+    .wrapper_other{
+        width: 88%;
+        margin: 0 auto 40px auto;
+    }
+
+    .other_menu{
+        margin: 0 auto;
+        width: fit-content;
+        margin-bottom: 50px;
+    }
+
+    .other_menu_item {
+        font-size: 1.2rem;
+
+    }
+
+    .other_menu_description {
+        font-size: 0.9rem;
+        margin-bottom: 6%;
+    }
+
+    .wrapper_menu {
+        width: 86%;
+        margin: 0 auto 60px auto;
+    }
+
+    .special_price {
+        font-size: 1.2rem;
+    }
+
+    .special_price span {
+        font-size: 0.9rem;
+    }
+
+    .special_menu_item {
+        font-size: 1.1rem;
+        margin: 7px 0 -5px 0;
+    }
+
+    .special_menu_item span {
+        font-size: 0.9rem;
+    }
+    
+    .special_description {
+        font-size: 0.85rem;
+    }
+
+    .wrapper_other_bottom {
+        margin-bottom: 150px;
+    }
+
+    .single {
+        width: 80%;
+        margin: 0 auto 60px auto;
+    }
+
+    .single_title {
+        font-size: 1.28472222222rem;
+    }
+
+    .single_border {
+        border: 0.15rem solid #bd9552;
+    }
+
+    .single table {
+        margin: 0 auto;
+    }
+    
+    .single_menu {
+        font-size:0.9rem;
+    }
+
+    .single_price {
+        white-space: nowrap;
+        font-size: 1rem;
+    }
+
+    .wrapper_take_out {
+        border: 0.3rem solid #bd9552;
+        width: 80%;
+        height: 100%;
+    }
+
+    .take_out{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 2rem auto;
+    }
+
+    .take_out_text {
+        margin: 0 auto;
+        font-size: 1.1rem;
+    }
+
+    .take_out_description {
+        font-size: 0.8rem;
+    }
+
+    .take_out_price {
+        font-size: 1rem;
+    }
+
+    .dessert_title {
+        color: white;
+        font-size: 1.4rem;
+        border-radius: 0;
+        width: 15rem;
+        height: 3.5rem;
+        margin-left: 0;
+        margin-bottom: -30px;
+    }
+
+    .dessert-flex .dessert_title {
+        margin-left: 5%;
+    }
+
+    .dessert-right img {
+        width: 90%;
+    }
+    
+
+    .dessert-right .dessert_title {
+        margin-left: 5%;
+    }
+
+    .dessert_description {
+        margin-bottom: 30px;
+    }
+
+    .dessert-right .dessert-table {
+        width: 90%;
+    }
+
+    .dessert-left {
+        width: 90%;
+        border: none;
+        margin-bottom: 100px;
+    }
+
+    .dessert-table{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .dessert-table tr {
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .dessert-right {
+        width: 80%;
+    }
+
+    .dessert-single {
+        border: none;
+    }
+
+    #drink, #alcohol {
+        margin-bottom: 30px;
+    }    
+
+    .wrapper_drink {
+        width: 90%;
+        margin: 15% auto;
+        border: none;
+    }    
+    
+    .wrapper_take_out_menu{
+        margin-top: 20%;
+    }
+
+    
+}
+
+
+
+@media (max-width:600px){
+    
+    .lunch_menu {
+        margin-bottom: 0;
+    }
+
+    .menu_item {
+        margin-top: 10px;
+    }
+}
+
+
+
+@media (max-width:462px){
+
+    .menu_item {
+        margin-top: 5px;
+    }
+
+    .wrapper_other {
+        margin-bottom: 30px;
+    }
+
+    .special_price {
+        line-height: 1rem;
+    }
+
+    .wrapper_other_bottom {
+        margin-bottom: 100px;
+    }
+
+    #dessert {
+        margin-bottom: 50px;
+    }
+
+    .dessert_title {
+        width: fit-content;
+    }    
+
+    .dessert-single .dessert_title {
+        padding: 0 45px;
+    }
+}

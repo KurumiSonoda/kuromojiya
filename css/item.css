@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+/* ヘッダーここから */
+
+/* ヘッダーここから */
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header_pc {
+    position: fixed;
+    height: 12%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    min-width: 751px;
+    color: #231815;
+    background-color: rgba(35, 24, 21, 0.5);
+    z-index: 800;
+}
+
+ul li {
+    list-style: none;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.header_pc .flex {
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo {
+    margin-top: 0.7em;
+    margin-left: 2%;
+}
+
+.logo img {
+    height: 80%;
+}
+
+.icon {
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-flow: column;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #231815;
+    font-size: 1.2em;
+}
+
+.home {
+    background-color: #797D55;
+    color: #fff;
+}
+
+.icon img{
+    height: 40%;
+    aspect-ratio: 1 / 1;
+    margin-bottom: 0.7em;
+}
+
+li a {
+    color: #231815;
+}
+
+.icon:hover {
+    background-color: #B9B9A2;
+}
+
+.header-menu{
+    font-size: 0.8em;
+}
+
+/* 751px以上の時は非表示 */
+@media screen and (min-width: 751px) {
+    .header_sp {
+      display: none;
+    }
+}
+
+.is-hidden {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .header_pc {
+        height: 10%;
+    }
+    
+    .header-menu{
+        font-size: 0.6em;
+    }
+}
+
+/* footerここから */
+
+footer{
+    background-image: url(../img/footer_img.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 17.5rem;
+    text-align: center;
+}
+
+.relative {
+    margin-top: 224px;
+    position: relative;
+    /* width: 100vw; */
+}
+
+.footer_image {
+    width: 100%;
+}
+
+
+.absolute {
+    width: fit-content;
+    margin: 0 auto 600px;
+    top: 38%;
+}
+
+.footer_logo {
+    height: 9.5vh;
+    width: auto;
+    margin-bottom: 1.7rem;
+}
+
+.address{
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+}
+
+.tel {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.info{
+    font-size: 0.85rem;
+}
+
+.footer_item {
+    margin: 0.85rem auto;
+}
+
+.footer_item p{
+    display: inline-block;
+    width: 20rem;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.footer_bottom {
+    position: relative;
+}
+
+.footer_tree{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer_tree img{
+    width: 100%;
+}
+
+small {
+    display: inline-block;
+    background-color: #424a1c;
+    height: 80px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+/* フッターレスポンシブ */
+@media (max-width:750px){
+
+
+    footer {
+        background-size: cover;
+        height: 100vh;
+        background-position: center center;
+        padding-top: 17.5rem;
+
+    }
+
+    .address{
+        font-size: 1.3rem;
+    }
+    
+    .tel {
+        font-size: 1.3rem;
+        margin: 1rem auto 1.5rem auto;
+    }
+
+    .info {
+        line-height: 25px;
+    }
+
+    .absolute{
+        margin: 0 auto 84%;
+    }
+
+    .relative{
+        margin: 0;
+    }
+
+} 

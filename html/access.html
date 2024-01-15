@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黒文字や</title>
+    <link rel="stylesheet" href="../css/ress.css">
+    <link rel="stylesheet" href="../css/access.css">
+    <link rel="stylesheet" href="../css/item.css">
+    <link rel="stylesheet" href="../css/sp.css" media="screen and (max-width: 750px)">
+    <link rel="stylesheet" href="../css/tablet.css" media="screen and (max-width: 960px)">
+</head>
+
+<body>
+    <header class="header_pc">
+        <div class="flex">
+            <h1 class="logo"><a href="index.html"><img src="../img/logo.svg" width="309" height="107" alt="黒文字や"></a></h1>
+            <nav class="pc-menu">
+                <ul class="flex main-nav">
+                    <li><a href="menu.html"><div class="icon home"><img src="../img/home.svg" width="56" height="90" alt="HOME"><p class="header-menu">MENU</p></div></a></li>
+                    <li><a href="about.html"><div class="icon"><img src="../img/about.svg" width="104" height="82" alt="お店の紹介"><p class="header-menu">お店の紹介</p></div></a></li>
+                    <li><a href="access.html"><div class="icon"><img src="../img/access.svg" width="48" height="72" alt="アクセス"><p class="header-menu">アクセス</p></div></a></li>
+                    <li><a href="contact.html"><div class="icon"><img src="../img/contact.svg" width="63" height="82" alt="お問い合わせ"><p class="header-menu">お問い合わせ</p></div></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <header class="header_sp">
+        <nav class="sp-menu flex">
+            <ul class="sub-nav">
+                <li><a href="about.html"><div class="icon"><img src="../img/about.svg" width="104" height="82" alt="お店の紹介"><p class="header-menu">お店の紹介</p></div></a></li>
+                <li><a href="access.html"><div class="icon"><img src="../img/access.svg" width="48" height="72" alt="アクセス"><p class="header-menu">アクセス</p></div></a></li>
+                <li><a href="contact.html"><div class="icon"><img src="../img/contact.svg" width="63" height="82" alt="お問い合わせ"><p class="header-menu">お問い合わせ</p></div></a></li>
+                <li>
+                    <button class="hamburger header_hamburger" id="js-hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span>MENU</span>
+                    </button>
+                </li>
+            </ul>
+            <div class="sp-menu_content" id="js-nav">
+                <ul class="sp-menu_list">
+                    <li class="sp-menu_item"><a href="./menu.html#lunch" class="sp-menu_link">ランチ</a></li>
+                    <li class="sp-menu_item"><a href="./menu.html#desert" class="sp-menu_link">デザート</a></li>
+                    <li class="sp-menu_item"><a href="./menu.html#drink" class="sp-menu_link">ドリンク</a></li>
+                    <li class="sp-menu_item"><a href="./menu.html#alcohol" class="sp-menu_link">アルコール</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+        <h2>ACCESS</h2>
+        <div class="main_flex">
+            <img src="../img/access.png" alt="" class="access_img">
+            <div class="wrapper_access">
+                <p class="access_title">店舗概要</p>
+                <hr class="access_border">
+                <table class="access_item">
+                    <tr>
+                        <td colspan="2">
+                            〒 810 - 0045<br>
+                            福岡県福岡市中央区草香江1-7-41
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="access_item_left">営業時間</td>
+                        <td><span>10:30 〜 18:00</span></td>
+                    </tr>
+                    <tr>
+                        <td class="access_item_left">定休日</td>
+                        <td>毎週月曜日</td>
+                    </tr>
+                    <tr>
+                        <td class="access_item_left">TEL</td>
+                        <td><span>092-726-6358</span></td>
+                    </tr>
+                    <tr>
+                        <td class="access_item_left">座席数</td>
+                        <td><span>26</span>席（全席喫煙）</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">お支払い方法　現金、クレジットカード決済、d払い
+                        </td>
+                    </tr>
+                </table>
+                <p class="access_title access">アクセス</p>
+                <table class="access_item">
+                    <tr>
+                        <td>
+                            福岡市地下鉄六本松駅　徒歩<span>６</span>分<br>
+                            当店が駐車場がございません。<br>
+                            お車でお越しの方はお近くのコインパーキングをご利用ください。
+                        </td>
+                    </tr>
+                        
+                    <tr>
+                        <td>
+                            ※当店は喫煙可能店です。<br>
+                            受動喫煙防止の為、20歳未満の入店をお断りします。
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="wrapper_way">
+            <p class="access_way">アクセス方法</p>
+            <div class="access_map">
+                <p class="access_map_title">博多からお越しの方</p>
+                <img src="../img/access_hakata.png" alt="博多からお越しの方" class="access_map">
+            </div>
+            <div class="access_map">
+                <p class="access_map_title">天神からお越しの方</p>
+                <img src="../img/access_tenjin.png" alt="天神からお越しの方" class="access_map">
+            </div>
+        </div>
+
+        <div class="flex_map">
+            <div class="wrapper_map">
+                <p class="map_directions">六本松駅、草香江（バス停）からの道順</p>
+                <img src="../img/map.png" alt="六本松駅から黒文字やまでの道順" class="map">
+            </div>
+        </div>
+
+        <div class="wrapper_route">
+            <p class="access_route">六本松駅からの経路</p>
+            <div class="grid route">
+                <div class="wrap_route">
+                    <img src="../img/access1.png" alt="">
+                    <p class="route_text"><span class="access_number">&#10102;</span> 六本松駅から出発する。</p>
+                </div>
+                <div class="wrap_route">
+                    <img src="../img/access2.png" alt="">
+                    <p class="route_text"><span class="access_number">&#10103;</span> 六本松駅を出て、別府橋通り/国道202号に向かう</p>
+                </div>
+                <div class="wrap_route">
+                    <img src="../img/access3.png" alt="">
+                    <p class="route_text"><span class="access_number">&#10104;</span> 六本松交番前（交差点）を、まっすぐ進みます。</p>
+                </div>
+                <div class="wrap_route">
+                    <img src="../img/access4.png" alt="">
+                    <p class="route_text"><span class="access_number">&#10105;</span> 六本松２丁目（交差点）を、まっすぐ進みます。</p>
+                </div>
+                <div class="wrap_route">
+                    <img src="../img/access5.png" alt="">
+                    <p class="route_text"><span class="access_number">&#10106;</span> 200 m進み、左折します。（車は進入禁止）</p>
+                </div>
+                <div class="wrap_route">
+                    <img src="../img/access6.png" alt="">
+                    <p class="route_text"><span class="access_number">&#10107;</span> 60 m進み、右折します。</p>
+                </div>
+                <div class="wrap_route">
+                    <img src="../img/access7.png" alt="">
+                    <p class="route_text"><span class="access_number">&#10108;</span> 分かりづらいですが、小さな看板が目印です。</p>
+                </div>
+                <div class="wrap_route">
+                    <img src="../img/access8.png" alt="">
+                    <p class="route_text">
+                        <span class="access_number">&#10109;</span> 細い路地を進むと当店がございます。</p>
+                </div>
+                <div class="wrap_route">
+                    <img src="../img/access9.png" alt="">
+                    <p class="route_text">
+                        遠方よりご来店ありがとうございます。<br>
+                        ごゆっくりお寛ぎ下さい。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="access_info">
+            <p class="access_text">道に迷った際や<br>
+                わからないことがあれば、<br>
+                お気軽にお電話下さい。</p>
+                <p class="access_tel">092-726-6358</p>
+                <p class="access_sales">営業時間10:30 〜 18:00<br>
+                    定休日 毎週月曜日</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="relative">
+            <!-- <img src="./image/footer_image.png" alt="" class="footer_image"> -->
+            <div class="absolute">
+                <img src="../img/logo.svg" alt="" class="footer_logo">
+                <div class="address">福岡県福岡市中央区六本松2-12-2</div>
+                <div class="tel">TEL   092-726-6358</div>
+                <div class="info">
+                    <div class="footer_item">
+                        <p>[営業時間]<br>
+                        10:30~18:00（ラストオーダー17:30）</p>
+                    </div>
+                    <div class="footer_item">
+                        <p>[定休日]<br>
+                        月曜日（月曜祝日の場合はご確認ください）</p>
+                    </div>
+                    <div class="footer_item">
+                        <p>[お支払い方法]<br>
+                        現金、各種クレジットカード決済、d払い</p>
+                    </div>
+                </div>
+                <!-- <img src="../img/footer_tree.png" alt="" class="footer_image"> -->
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="footer_tree">
+               <img src="../img/footer_tree.png" alt="">
+            </div>
+            <small>&copy;2023 kuromojiya</small>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
+    <script src="../js/item.js"></script>
+</body>
+</html>

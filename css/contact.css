@@ -1,0 +1,210 @@
+body {
+    background-image: url(../img/washi.png);
+    background-repeat: repeat;
+    background-size: 800px;
+    width: 100%;
+    color: white;
+    font-family: 'しっぽり明朝','Shippori Mincho',serif;
+    font-weight: 800;
+}
+
+.main {
+    text-align: center;
+}
+
+/* CONTACT */
+
+h2 {
+    font-size: 2.5rem;
+    color: #c29852;
+    margin: 14.5vw auto 5vw auto;
+}
+
+h3{
+    font-size: 2.5rem;
+    color: #c29852;
+    margin: 7vw auto 5vw auto;
+}
+
+.contact_text{
+    font-size: 1.4rem;
+    margin-bottom: 2vw;
+}
+
+.contact_info {
+    width: fit-content;
+    text-align: left;
+    margin: 1vw auto 0 auto;
+
+}
+
+.contact_item {
+    font-size: 1.4rem;
+}
+
+.contact_time {
+    font-size: 2.6rem;
+}
+
+.contact_attention {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: left;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 2% 0 10% 0;
+}
+
+.fad_wrapper {
+    margin-top: -8vw;
+    font-size: 1.2rem;
+    /* FAQ入力したとき数字変更↓ */
+    /* width: 50vw; */
+}
+
+.question {
+    margin: 16vw 0 1.8vw 20vw;
+    text-align: left;
+    width: 67%;
+}
+
+.answer {
+    text-align: left;
+    padding-bottom: 15vw;
+    padding-right: 16vw;
+    margin-left: 22vw;
+}
+
+hr{
+    border-width: 0.1vw 0 0 0;
+    border-style: solid;
+    border-color: #c29852;
+    /* height: 1px; */
+    width: 65%;
+    margin: -12vw auto;
+}
+
+.fad_img {
+    width: 2.8rem;
+    vertical-align: middle;
+}
+
+.contact_img {
+    box-shadow: 30px 30px 0px -12px #424a1c;
+    width: 60%;
+    margin-top: 22vw;
+}
+
+.about_privacy-policy {
+    font-size: 1.3rem;
+    margin-top: 8rem;
+    margin-bottom: 1.5rem;
+}
+
+.privacy-policy {
+    font-size: 0.9375rem;
+    width: 80%;
+    max-width: 800px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.privacy-policy_item {
+    margin-bottom: 1rem;
+    line-height: 1.8rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+    h2 {
+        font-size: 2.2rem;
+    }
+    .fad_wrapper {
+        font-size: 0.9rem;
+    }
+    .fad_img {
+        width: 2.0rem;
+
+    } 
+    }
+
+@media screen and (max-width: 750px) {
+    h2{
+        margin-top: 25%;
+        font-size: 1.75rem;
+    }
+
+    h3{
+        margin-top: 10%;
+        font-size: 1.75rem;
+    }
+  
+    .contact_text,.contact_item {
+        margin: 7% auto;
+        font-size: 0.95rem;
+    }
+    .contact_time {
+        font-size: 1.4rem;
+    }
+    .contact_attention{
+        font-size: 0.85rem;
+
+    }
+    .fad_img {
+        width: 1.8rem;
+    } 
+    .fad_wrapper {
+        font-size: 0.8rem;
+    }
+
+    .about_privacy-policy {
+        font-size: 1.0rem;
+    }
+    
+    .privacy-policy {
+        font-size: 0.85rem;
+    }
+
+
+    }
+@media screen and (max-width: 480px) {
+    h2{
+        margin-top: 30%;
+        font-size: 1.2rem;
+    }
+
+    h3{
+        margin-top: 20%;
+        font-size: 1.2rem;
+    }
+    .contact_text,.contact_item {
+        margin: 7% auto;
+        font-size: 0.65rem;
+    }
+    .contact_attention{
+        padding: 4% 0 5% 0;
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+    .fad_wrapper {
+        font-size: 0.65rem;
+
+    }
+    .about_privacy-policy {
+        font-size: 0.8rem;
+    }
+    .fad_img {
+        width: 1.3rem;
+    } 
+    .fad_wrapper {
+        font-size: 0.65rem;
+    }
+
+    .privacy-policy {
+        font-size: 0.65rem;
+
+    }
+
+
+
+    }

@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+/* 共通部分
+ベースカラー　　：#231815
+アソートカラー　：#797D55
+アクセントカラー：#C29852
+------------------------ */
+
+/* ヘッダー
+----------------------- */
+.header_pc {
+    height: 10%;
+}
+
+.header-menu{
+    font-size: 0.6em;
+}
+
+/* トップページ
+---------------------- */
+/* ローディング画面 */
+#splash_logo {
+    width: 22%;
+}
+
+/* OTONA CLASSIC TIME */
+.about_wrapper{
+    padding: 0 0 7% 0;
+}
+
+
+/* メニュー */
+.menu_flex {
+    flex-direction: column;
+    gap: 50px;
+}
+

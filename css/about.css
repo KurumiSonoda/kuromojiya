@@ -1,0 +1,369 @@
+body {
+    background-image: url(../img/washi.png);
+    background-repeat: repeat;
+    background-size: 800px;
+    font-weight: 800;
+    font-family: 'しっぽり明朝','Shippori Mincho',serif;
+    color: #ffffff;
+}
+
+
+/* ギャラリー */
+
+h2 {
+    font-size: 2.5rem;
+    color: #c29852;
+    margin: 14.5vw auto 5vw auto;
+    width: fit-content;
+    letter-spacing: 0.3rem;
+}
+
+.message {
+    font-size: 2.5rem;
+    opacity: 0.5;
+    text-shadow: 0.25rem 0 0.19rem rgba(0, 0, 0, 0.8);
+    width: fit-content;
+    margin: 13vw auto 3vw auto;
+}
+
+.message_text {
+    writing-mode: vertical-rl;
+    margin: 0 auto 250px auto;
+    font-size: 1.2rem;
+    line-height: 4vw;
+    align-items: center;
+    text-align: start;
+}
+
+/* ここから */
+
+.interior_flex{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+    gap: 5px;
+}
+
+img{
+    width: 100%;
+}
+
+.interior_box{
+    position: relative;
+    width: 50%;
+}
+
+.interior_title{
+    opacity: 0.75;
+    font-size: 2.2vw;
+    margin-left: -1%;
+    letter-spacing: 3px;
+    text-shadow: 0.25rem 0 0.19rem rgba(0, 0, 0, 0.8)    
+}
+
+.shadow{
+    text-shadow: none;
+    opacity: 0.3;
+    font-size: 5vw;
+    letter-spacing: -1vw;
+    font-weight: 500;
+}
+
+.interior_txt{
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+}
+
+.shadow_font{
+    font-size: 0.9vw;
+    line-height: 2;
+    text-shadow: 0.25rem 0 0.19rem rgba(0, 0, 0, 0.8)
+}
+
+.right_box{
+    text-align: right;
+    position: absolute;
+    bottom: 7px;
+    right: 17px;
+}
+
+.bottombox{
+    margin-bottom: 200px;
+}
+
+.kuromoji{
+    line-height: 1;
+    letter-spacing: 0.5vw;
+    margin: 4% 0 8% 0;
+}
+
+.text_line_left{
+	display: flex;
+	align-items: center;
+    text-align: left;
+    width: 85%;
+}
+
+.text_line_right{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.text_line_left:before {
+	content: "";
+	flex-grow: 1;
+	height: 1px;
+	display: block;
+	background: white;
+    margin-right: 1vw;
+}
+
+.txt_bottom{
+    font-size: 1.1vw;
+    width: 35%;
+    margin: 400px auto 200px auto;
+}
+
+.rightbox_under{
+    width: 23%;
+    margin: 0 0 1% 72%;
+}
+
+.under_title{
+    text-align: left;
+    margin: 39% 0 -67% 0;
+}
+
+.under_shadow{
+    text-align: right;
+}
+
+/* footerここから */
+
+footer{
+    background-image: url(../img/footer_img.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 10.5rem;
+    text-align: center;
+}
+
+.relative {
+    margin-top: 100px;
+    position: relative;
+    /* width: 100vw; */
+}
+
+.footer_image {
+    width: 100%;
+}
+
+
+.absolute {
+    width: fit-content;
+    margin: 0 auto 600px;
+    top: 38%;
+}
+
+.footer_logo {
+    height: 11vh;
+    width: auto;
+    margin-bottom: 1.7rem;
+}
+
+.address{
+    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.tel {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.info{
+    font-size: 0.85rem;
+}
+
+.footer_item {
+    margin: 0.85rem auto;
+}
+
+.footer_item p{
+    display: inline-block;
+    width: 18rem;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 0.9rem;
+}
+
+.footer_bottom {
+    position: relative;
+}
+
+.footer_tree{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer_tree img{
+    width: 100%;
+}
+
+small {
+    display: inline-block;
+    background-color: #424a1c;
+    height: 80px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+/* レスポンシブ */
+
+@media (max-width:1024px) {
+
+    .message{
+        margin-top: 27vw;
+    }
+
+    .message_text{
+        line-height: 3rem;
+        margin: 0 auto 100px auto;
+    }
+
+    .interior_flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px auto;
+        width: fit-content;
+    }
+
+    .bottom_box{
+        margin-bottom: 0;
+    }
+
+    .txt_bottom{
+        font-size: 1.8vw;
+        width: 55%;
+        margin: 150px auto 200px auto;
+    }
+
+    .interior_box{
+        position: relative;
+        width: 80%;
+    }
+
+    .right_box{
+        text-align: right;
+        right: 3%;
+    }
+
+    .shadow_font{
+        font-size: 1.6vw;
+    }
+
+    .interior_title{
+        font-size: 5vw;
+    }
+
+    .shadow{
+        font-size: 8vw;
+    }
+
+    .kuromoji{
+        margin: 4% 0 5% 0;
+    }
+
+    .rightbox_under{
+        width: 30%;
+        margin: -17px 0 1% 70%;
+    }
+
+    .under_title{
+        margin: 42% 0 -50% 0;
+    }
+}
+
+@media (max-width:750px){
+
+    .interior_box{
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .interior_flex{
+        width: 100%;
+        margin: 8px auto;
+    }
+
+    .interior_txt{
+        position: absolute;
+        bottom: 35px;
+    }
+
+    .right_box{
+        position: absolute;
+        bottom: 37px;
+    }
+
+    .shadow_font{
+        padding: 0 0 13% 0;
+        font-size: 2.3vw;
+    }
+
+    .message_text{
+        font-size: clamp(0.8rem, 1vw, 1.2rem);
+        line-height: 2rem;
+    }
+
+    h2{
+        font-size: 1.75rem;
+        width: fit-content;
+        margin: 173px auto 60px auto;
+    }
+
+    .message{
+        font-size: 1.75rem;
+        margin: 215px auto 64px auto;
+    }
+
+    .first_message{
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .interior_title{
+        font-size: 8vw;
+    }
+
+    .shadow{
+        font-size: 10.5vw;
+    }
+
+    .kuromoji{
+        margin: -10% 0 -5.5% 0;
+    }
+
+    .rightbox_under{
+        width: 33%;
+        margin: -57px 0 3% 65%;
+    }
+
+    .under_title{
+        margin: 31% 0 -13% -21px;
+    }
+
+    .txt_bottom{
+        font-size: 2.5vw;
+        width: 75%;
+        margin: 308px auto 200px auto;
+    }
+    
+}
+
+
